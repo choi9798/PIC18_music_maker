@@ -1,0 +1,145 @@
+html{
+    height: 100vh;
+    margin:0;
+}
+
+body{
+    margin:0;
+    height: 100vh;
+    width : 100vw;
+    overflow: hidden;
+}
+
+#soundpad{
+    margin-left: 9vw;
+    margin-top: 3vh;
+}
+.row{
+    margin:0;
+    min-height: 10vw;
+    max-height: 10vw;
+    min-width: 81vw;
+    max-width: 81vw;
+}
+
+.box{
+    float : left;
+    margin : 0;
+    min-height: 9.8vw;
+    max-height: 9.8vw;
+    min-width: 9.8vw;
+    max-width: 9.8vw;
+    border: 0.1vw solid blue;
+}
+
+.row0{
+    background-color: red;
+}
+
+.row1{
+    background-color: orange;
+}
+
+.row2{
+    background-color: yellow;
+}
+
+.row3{
+    background-color: green;
+}
+
+.row4{
+    background-color: #3D95A0;
+}
+
+.row5{
+    background-color: #18147A;
+}
+
+.row6{
+    background-color: purple;
+}
+
+.row7{
+    background-color: red;
+}
+
+.slidecontainer{
+    margin-left: 10vw;
+    width : 80vw;
+    height : 8vh;
+}
+
+.slider{
+    margin-top: 1vh;
+    width:80vw;
+    height:3vh;
+    -webkit-appearance: none;
+    appearance: none;
+    background: #d3d3d3;
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 3vh;
+  background: #4CAF50;
+  cursor: pointer;
+}
+
+#tempo{
+    font-size: 30px;
+}
+
+#toolbar{
+    margin-top: 3vh;
+    margin-left: 11vw;
+}
+
+.tool{
+    font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    float : left;
+    margin : 0;
+    min-height: 12vw;
+    max-height: 12vw;
+    min-width: 12vw;
+    max-width: 12vw;
+    border: 0.5vw solid black;
+}
+
+.playbtn{
+    background-color: pink;
+}
+
+.plusbtn{
+    background-color: lime;
+}
+
+.minusbtn{
+    background-color: pink;
+}
+
+.leftbtn{
+    background-color: lime;
+}
+
+.rightbtn{
+    background-color: pink;
+}
+
+.resetbtn{
+    background-color: lime;
+}
+
+#info{
+    margin-left: 10vw;
+    font-size: 30px;
+}
+
+#test{
+    font-size: 0px;
+}
