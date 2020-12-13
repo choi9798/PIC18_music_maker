@@ -1,4 +1,4 @@
-# 2018微算機專題 Music Maker (組別:28)
+# 微算機專題 Music Maker
 
 - 專題動機與願景
     - 看到google song maker後決定實作透過互動讓音樂初學者或兒童認識音調跟節奏的特性的作品
